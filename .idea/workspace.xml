@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9e55fb56-30a1-4c54-b082-d987d32048a3" name="Changes" comment="new files add, from scratch">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/junit_jupiter.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stack/StackImplementation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/stack/StackImplementationTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Internship_as1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Internship_as1.iml" afterDir="false" />
-    </list>
+    <list default="true" id="9e55fb56-30a1-4c54-b082-d987d32048a3" name="Changes" comment="test cases for stack and project restructure" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -25,6 +19,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectColorInfo"><![CDATA[{
@@ -48,7 +47,7 @@
     "WebServerToolWindowFactoryState": "false",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "dec5-test",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -174,7 +173,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1701757761331</updated>
-      <workItem from="1701757762354" duration="5010000" />
+      <workItem from="1701757762354" duration="5319000" />
     </task>
     <task id="LOCAL-00001" summary="new files add, from scratch">
       <option name="closed" value="true" />
@@ -184,7 +183,15 @@
       <option name="project" value="LOCAL" />
       <updated>1701757931489</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="test cases for stack and project restructure">
+      <option name="closed" value="true" />
+      <created>1701763103082</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1701763103082</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -203,6 +210,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="new files add, from scratch" />
-    <option name="LAST_COMMIT_MESSAGE" value="new files add, from scratch" />
+    <MESSAGE value="new files add, from scratch, test cases for stack, file restructure" />
+    <MESSAGE value="test cases for stack and project restructure" />
+    <option name="LAST_COMMIT_MESSAGE" value="test cases for stack and project restructure" />
   </component>
 </project>
