@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9e55fb56-30a1-4c54-b082-d987d32048a3" name="Changes" comment="test cases for stack and project restructure">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/queue/queue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/queue/QueueTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/queue/queue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/queue/queue.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,6 +45,10 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Downloaded.Files.Path.Enabled": "false",
+    "JUnit.BinaryTreeTest.executor": "Run",
+    "JUnit.BinaryTreeTest.testPostOrder.executor": "Run",
+    "JUnit.BinaryTreeTest.testPreOrder.executor": "Run",
+    "JUnit.BinaryTreeTest.testPreorder.executor": "Run",
     "Repository.Attach.Annotations": "false",
     "Repository.Attach.JavaDocs": "false",
     "Repository.Attach.Sources": "false",
@@ -56,6 +59,8 @@
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
     "git-widget-placeholder": "dec5-test",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/Intern/Internship_as1",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -65,6 +70,11 @@
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
     "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "sqlite"
+    ]
   }
 }]]></component>
   <component name="RecentsManager">
@@ -72,106 +82,114 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="binaryTree" />
       <recent name="queue" />
       <recent name="stack" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.QueueTest">
-    <configuration name="QueueTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.BinaryTreeTest.testPreOrder">
+    <configuration name="BinaryTreeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Internship_as1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="queue.*" />
+          <option name="PATTERN" value="binaryTree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="queue" />
-      <option name="MAIN_CLASS_NAME" value="queue.QueueTest" />
+      <option name="PACKAGE_NAME" value="binaryTree" />
+      <option name="MAIN_CLASS_NAME" value="binaryTree.BinaryTreeTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QueueTest.dequeueTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BinaryTreeTest.testInsert" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Internship_as1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="queue.*" />
+          <option name="PATTERN" value="binaryTree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="queue" />
-      <option name="MAIN_CLASS_NAME" value="queue.QueueTest" />
-      <option name="METHOD_NAME" value="dequeueTest" />
+      <option name="PACKAGE_NAME" value="binaryTree" />
+      <option name="MAIN_CLASS_NAME" value="binaryTree.BinaryTreeTest" />
+      <option name="METHOD_NAME" value="testInsert" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QueueTest.enqueuetest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BinaryTreeTest.testPostOrder" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Internship_as1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="queue.*" />
+          <option name="PATTERN" value="binaryTree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="queue" />
-      <option name="MAIN_CLASS_NAME" value="queue.QueueTest" />
-      <option name="METHOD_NAME" value="enqueuetest" />
+      <option name="PACKAGE_NAME" value="binaryTree" />
+      <option name="MAIN_CLASS_NAME" value="binaryTree.BinaryTreeTest" />
+      <option name="METHOD_NAME" value="testPostOrder" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QueueTest.isEmptyTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BinaryTreeTest.testPreOrder" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Internship_as1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="queue.*" />
+          <option name="PATTERN" value="binaryTree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="queue" />
-      <option name="MAIN_CLASS_NAME" value="queue.QueueTest" />
-      <option name="METHOD_NAME" value="isEmptyTest" />
+      <option name="PACKAGE_NAME" value="binaryTree" />
+      <option name="MAIN_CLASS_NAME" value="binaryTree.BinaryTreeTest" />
+      <option name="METHOD_NAME" value="testPreOrder" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QueueTest.peekfirstTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BinaryTreeTest.testPreorder" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Internship_as1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="queue.*" />
+          <option name="PATTERN" value="binaryTree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="queue" />
-      <option name="MAIN_CLASS_NAME" value="queue.QueueTest" />
-      <option name="METHOD_NAME" value="peekfirstTest" />
+      <option name="PACKAGE_NAME" value="binaryTree" />
+      <option name="MAIN_CLASS_NAME" value="binaryTree.BinaryTreeTest" />
+      <option name="METHOD_NAME" value="testPreorder" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.QueueTest" />
-      <item itemvalue="JUnit.QueueTest.dequeueTest" />
-      <item itemvalue="JUnit.QueueTest.enqueuetest" />
-      <item itemvalue="JUnit.QueueTest.isEmptyTest" />
-      <item itemvalue="JUnit.QueueTest.peekfirstTest" />
+      <item itemvalue="JUnit.BinaryTreeTest.testPostOrder" />
+      <item itemvalue="JUnit.BinaryTreeTest.testPreOrder" />
+      <item itemvalue="JUnit.BinaryTreeTest" />
+      <item itemvalue="JUnit.BinaryTreeTest.testInsert" />
+      <item itemvalue="JUnit.BinaryTreeTest.testPreorder" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.QueueTest" />
-        <item itemvalue="JUnit.QueueTest.peekfirstTest" />
-        <item itemvalue="JUnit.QueueTest.dequeueTest" />
-        <item itemvalue="JUnit.QueueTest.enqueuetest" />
-        <item itemvalue="JUnit.QueueTest.isEmptyTest" />
+        <item itemvalue="JUnit.BinaryTreeTest.testPreOrder" />
+        <item itemvalue="JUnit.BinaryTreeTest" />
+        <item itemvalue="JUnit.BinaryTreeTest.testPostOrder" />
+        <item itemvalue="JUnit.BinaryTreeTest.testPreorder" />
+        <item itemvalue="JUnit.BinaryTreeTest.testInsert" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-17.0.9-jbr-17.0.9-3183f394aec4-0cf83cf7" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -182,6 +200,12 @@
       <option name="presentableId" value="Default" />
       <updated>1701757761331</updated>
       <workItem from="1701757762354" duration="9323000" />
+      <workItem from="1701771300254" duration="609000" />
+      <workItem from="1701836242084" duration="2895000" />
+      <workItem from="1701850719380" duration="7957000" />
+      <workItem from="1701943113894" duration="56000" />
+      <workItem from="1701943256788" duration="950000" />
+      <workItem from="1701957051137" duration="2929000" />
     </task>
     <task id="LOCAL-00001" summary="new files add, from scratch">
       <option name="closed" value="true" />

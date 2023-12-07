@@ -43,7 +43,4 @@ public class queue {
         }
         return array[0];
     }
-
-
-
 }
